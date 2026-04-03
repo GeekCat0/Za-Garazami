@@ -61,6 +61,10 @@ PrefabInstance:
       value: Friendly
       objectReference: {fileID: 0}
     - target: {fileID: 8976597166471484393, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
+      propertyPath: unitType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976597166471484393, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
       propertyPath: movingLeft
       value: 1
       objectReference: {fileID: 0}

@@ -1,10 +1,17 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public enum UnitState
 {
     Moving = 0,
     Attacking = 1,
     Dead = 2,
+}
+public enum UnitType
+{
+    Tank = 0,
+    Rogue = 1,
+    Ranged = 2,
 }
 public class UnitController : MonoBehaviour
 {
@@ -18,6 +25,7 @@ public class UnitController : MonoBehaviour
     [SerializeField] private bool movingLeft = false;
 
     [Header("CombatStats")]
+    [SerializeField] private UnitType unitType;
     [SerializeField] private float maxHealth = 100f;
     [SerializeField] private float damage = 1f;
     [SerializeField] private float attackCooldown = 1f;
@@ -65,8 +73,9 @@ public class UnitController : MonoBehaviour
 
         if (cooldownTimer <= 0f)
         {
-            Debug.Log(this.tag + " attacked " + target.tag + " for " + damage + " damage.");
-            target.TakeDamage(damage);
+            float FinalDamage = damage * GetMultiplier(target.unitType);
+            Debug.Log(this.tag + " attacked " + target.tag + " for " + FinalDamage + " damage.");
+            target.TakeDamage(FinalDamage);
             cooldownTimer = attackCooldown; 
         }
     }
@@ -124,6 +133,44 @@ public class UnitController : MonoBehaviour
             }
         }
         return nearest;
+    }
+
+    private readonly Dictionary<UnitType, Dictionary<UnitType, float>> matchups // słownik z typami i jakie bonusy mają
+    = new Dictionary<UnitType, Dictionary<UnitType, float>>()
+    {
+        {
+            UnitType.Tank, new Dictionary<UnitType, float>
+            {
+                { UnitType.Tank, 1.0f },
+                { UnitType.Rogue,  1.5f },  
+                { UnitType.Ranged,   0.5f },  
+            }
+        },
+        {
+            UnitType.Rogue, new Dictionary<UnitType, float>
+            {
+                { UnitType.Tank, 0.5f },
+                { UnitType.Rogue,  1.0f },
+                { UnitType.Ranged,   1.5f },
+            }
+        },
+        {
+            UnitType.Ranged, new Dictionary<UnitType, float>
+            {
+                { UnitType.Tank, 1.5f },
+                { UnitType.Rogue,  0.5f },
+                { UnitType.Ranged,   1.0f },
+            }
+        },
+    };
+
+    public float GetMultiplier( UnitType defender)
+    {
+        if (matchups.TryGetValue(unitType, out var defenderTable))
+            if (defenderTable.TryGetValue(defender, out float multiplier))
+                return multiplier;
+
+        return 1.0f;
     }
 
     void OnDrawGizmosSelected() // by ładnie było widać zasięg ataku w edytorze 
