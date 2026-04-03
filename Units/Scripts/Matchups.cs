@@ -11,16 +11,18 @@ public static class Matchups // nic nie dziedziczy wiec mamy zaliczony warunek z
             UnitType.Tank, new Dictionary<UnitType, float>
             {
                 { UnitType.Tank, 1.0f },
-                { UnitType.Rogue,  1.5f },
-                { UnitType.Ranged,   0.5f },
+                { UnitType.Rogue, 1.5f },
+                { UnitType.Ranged, 0.5f },
+                { UnitType.Base, 1.0f },
             }
         },
         {
             UnitType.Rogue, new Dictionary<UnitType, float>
             {
                 { UnitType.Tank, 0.5f },
-                { UnitType.Rogue,  1.0f },
-                { UnitType.Ranged,   1.5f },
+                { UnitType.Rogue, 1.0f },
+                { UnitType.Ranged, 1.5f },
+                { UnitType.Base, 1.0f },
             }
         },
         {
@@ -29,6 +31,7 @@ public static class Matchups // nic nie dziedziczy wiec mamy zaliczony warunek z
                 { UnitType.Tank, 1.5f },
                 { UnitType.Rogue,  0.5f },
                 { UnitType.Ranged,   1.0f },
+                { UnitType.Base, 1.0f },
             }
         },
     };

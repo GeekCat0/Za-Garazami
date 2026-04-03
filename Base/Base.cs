@@ -1,13 +1,27 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Base : MonoBehaviour
 {
+    [Header("Stats")]
     [SerializeField] private float maxHealth = 1000;
     [SerializeField] private float currentHealth = 1000;
+
+    [Header("Spawning")]
+    [SerializeField] private UnitPool unitPool;
+    [SerializeField] private Transform spawnPoint;
 
     private void Start()
     {
         currentHealth = maxHealth;
+    }
+    public void SpawnUnit(int unitTypeID)
+    {
+        UnitType unitType = (UnitType)unitTypeID;
+        GameObject unit = unitPool.Get(unitType, spawnPoint.position);
+        if (unit == null) return;
+
+        unit.GetComponent<UnitController>().Initialize(unitPool);
     }
     public void TakeDamage(float damage)
     {

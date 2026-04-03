@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3801853529351996439, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3801853529351996439, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6651692283925007901, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
       propertyPath: m_Name
-      value: BasicFriendlyUnit Variant
+      value: BasicFriendlyUnit
       objectReference: {fileID: 0}
     - target: {fileID: 6651692283925007901, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
       propertyPath: m_TagString
@@ -59,6 +59,10 @@ PrefabInstance:
     - target: {fileID: 8976597166471484393, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
       propertyPath: enemyTag
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976597166471484393, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
+      propertyPath: enemyBaseTag
+      value: EnemyBase
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
