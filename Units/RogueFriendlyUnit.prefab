@@ -52,6 +52,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: RogueFriendlyUnit
       objectReference: {fileID: 0}
+    - target: {fileID: 7019349502369089430, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8396226
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019349502369089430, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_Color.g
+      value: 0.34456214
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019349502369089430, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_Color.r
+      value: 0.62713313
+      objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: damage
       value: 5
@@ -67,6 +79,10 @@ PrefabInstance:
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: moveSpeed
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: attackRange
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: attackCooldown

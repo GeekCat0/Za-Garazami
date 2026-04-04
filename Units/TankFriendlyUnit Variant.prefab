@@ -52,6 +52,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: TankFriendlyUnit Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7019349502369089430, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_Color.b
+      value: 0.8773585
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019349502369089430, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_Color.g
+      value: 0.72304434
+      objectReference: {fileID: 0}
+    - target: {fileID: 7019349502369089430, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_Color.r
+      value: 0.22761661
+      objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: maxHealth
       value: 120

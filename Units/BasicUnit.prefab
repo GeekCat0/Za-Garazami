@@ -109,12 +109,15 @@ MonoBehaviour:
   rb: {fileID: 1823109714327058101}
   <unitState>k__BackingField: 0
   enemyTag: 
+  enemyBaseTag: 
   moveSpeed: 1
   movingLeft: 0
+  unitType: 0
   maxHealth: 100
   damage: 10
   attackCooldown: 1
-  attackRange: 2
+  attackRange: 1
+  currentHealth: 100
 --- !u!50 &1823109714327058101
 Rigidbody2D:
   serializedVersion: 5
