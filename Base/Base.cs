@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using System;
 
 public class Base : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Base : MonoBehaviour
     [SerializeField] private UnitPool unitPool;
     [SerializeField] private Transform spawnPoint;
 
+    public static event Action<int> UnitSpawnedEvent;
     private void Start()
     {
         currentHealth = maxHealth;
@@ -22,6 +24,7 @@ public class Base : MonoBehaviour
         if (unit == null) return;
 
         unit.GetComponent<UnitController>().Initialize(unitPool);
+        UnitSpawnedEvent.Invoke(unitTypeID);
     }
     public void TakeDamage(float damage)
     {
