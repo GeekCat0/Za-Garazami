@@ -59,6 +59,8 @@ public class EnemyBasicAI : MonoBehaviour
         }
         else nextUnitID = defaultUnitID;
 
+        if (nextUnitID > maxUnitID) nextUnitID = defaultUnitID;
+
     }
 
     IEnumerator SpawningProcess()
