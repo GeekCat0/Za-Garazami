@@ -18,6 +18,7 @@ public class UnitController : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Animator animator;
     [field: SerializeField] public UnitState unitState { get; private set; } = UnitState.Moving;
     [SerializeField] private string enemyTag;
     [SerializeField] private string enemyBaseTag;
@@ -55,14 +56,17 @@ public class UnitController : MonoBehaviour
         switch (unitState)
         {
             case UnitState.Moving:
+                animator.SetBool("Attack", false);
                 Move();
                 break;
 
             case UnitState.Attacking:
+                animator.SetBool("Attack", true);
                 Attack();
                 break;
 
             case UnitState.Dead:
+                animator.SetBool("Attack", false);
                 break;
         }
     }

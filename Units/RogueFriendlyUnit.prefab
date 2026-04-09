@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2604409665031660939, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2604409665031660939, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2604409665031660939, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2604409665031660939, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_LocalPosition.x
@@ -64,10 +64,22 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4059975767654424478, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1473702195486768967, guid: f343d4d86c0af264fa2e291aed851c77, type: 3}
+    - target: {fileID: 4228047772104745846, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_SpriteHash
+      value: 503667650
+      objectReference: {fileID: 0}
     - target: {fileID: 5524179021267971969, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_Name
       value: RogueFriendlyUnit
       objectReference: {fileID: 0}
+    - target: {fileID: 6820020583158157099, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_SpriteLibraryAsset
+      value: 
+      objectReference: {fileID: 7108339969198208228, guid: e426b56151d03f34ca722e4b33cf1b08, type: 3}
     - target: {fileID: 7019349502369089430, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_Color.b
       value: 0.8396226

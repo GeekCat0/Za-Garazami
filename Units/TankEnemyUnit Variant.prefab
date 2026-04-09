@@ -13,16 +13,20 @@ PrefabInstance:
       value: TankEnemyUnit Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3886823145809997698, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3545922311288445956, guid: 48c9646aed5c03946a5f4e62cbfa591f, type: 3}
+    - target: {fileID: 3886823145809997698, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: m_Color.b
-      value: 0.21639377
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886823145809997698, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: m_Color.g
-      value: 0.18609823
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3886823145809997698, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: m_Color.r
-      value: 0.7735849
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4101762068503698017, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: unitType
@@ -31,6 +35,14 @@ PrefabInstance:
     - target: {fileID: 4101762068503698017, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: maxHealth
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7956820586040841139, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 7956820586040841139, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 8123861417323220383, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: m_LocalPosition.x

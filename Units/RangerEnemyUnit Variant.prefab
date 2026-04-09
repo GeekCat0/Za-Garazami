@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 737724707528091455, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
+      propertyPath: m_SpriteLibraryAsset
+      value: 
+      objectReference: {fileID: 7108339969198208228, guid: 47b9778d62e1e8d43b92eb4930f2edbc, type: 3}
     - target: {fileID: 1743081816578099093, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: m_Name
       value: RangerEnemyUnit Variant
@@ -39,6 +43,22 @@ PrefabInstance:
     - target: {fileID: 4101762068503698017, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: attackRange
       value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840369285976258442, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4867908640421819076, guid: 820712d5007baec4d8c2c5a4255500a5, type: 3}
+    - target: {fileID: 7941098676991839074, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
+      propertyPath: m_labelHash
+      value: 3.6940288e-27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7941098676991839074, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
+      propertyPath: m_SpriteHash
+      value: 902823187
+      objectReference: {fileID: 0}
+    - target: {fileID: 7941098676991839074, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
+      propertyPath: m_CategoryHash
+      value: 9.932601e-39
       objectReference: {fileID: 0}
     - target: {fileID: 8123861417323220383, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: m_LocalPosition.x
