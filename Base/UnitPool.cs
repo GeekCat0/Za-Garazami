@@ -40,7 +40,25 @@ public class UnitPool : MonoBehaviour
         pools.TryGetValue(unitType, out Queue<GameObject> pool);
 
         GameObject unit = pool.Count > 0 ? pool.Dequeue() : Instantiate(unitEntries.Find(e => e.unitType == unitType).unitPrefab, transform);
-
+        if (unit.CompareTag("Friendly"))
+        {
+            UnitController unitScript = unit.GetComponent<UnitController>();
+            if (unitScript == null)
+            {
+                Debug.Log("Prefab nie ma na sobie unitControlera");
+                unit.SetActive(false);
+                pool.Enqueue(unit);
+                return null;
+            }
+            if (unitScript.unitCost <= MoneySystem.instance.playerMoney) MoneySystem.instance.playerMoney -= unitScript.unitCost;
+            else
+            {
+                unit.SetActive(false);
+                pool.Enqueue(unit);
+                return null;
+            }
+        }
+        Debug.Log("Idzie skrypt dalej");
         unit.transform.position = position;
         unit.SetActive(true);
         unit.GetComponent<UnitController>().ResetUnit();

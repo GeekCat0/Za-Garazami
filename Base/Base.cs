@@ -7,6 +7,7 @@ public class Base : MonoBehaviour
     [Header("Stats")]
     [SerializeField] private float maxHealth = 1000;
     [SerializeField] private float currentHealth = 1000;
+    
 
     [Header("Spawning")]
     [SerializeField] private UnitPool unitPool;
@@ -22,7 +23,6 @@ public class Base : MonoBehaviour
         UnitType unitType = (UnitType)unitTypeID;
         GameObject unit = unitPool.Get(unitType, spawnPoint.position);
         if (unit == null) return;
-
         unit.GetComponent<UnitController>().Initialize(unitPool);
         UnitSpawnedEvent.Invoke(unitTypeID);
     }

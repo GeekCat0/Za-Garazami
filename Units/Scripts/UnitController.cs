@@ -36,6 +36,7 @@ public class UnitController : MonoBehaviour
     [SerializeField] private float attackRange = 1f;
 
     [SerializeField] private float currentHealth = 100f; //serialize tylko jako debug 
+    public int unitCost = 5;
     private float cooldownTimer = 1f;
     private UnitController target;
     private bool attackingBase = false;

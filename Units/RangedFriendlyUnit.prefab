@@ -81,6 +81,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: unitCost
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: unitType
       value: 2
       objectReference: {fileID: 0}
