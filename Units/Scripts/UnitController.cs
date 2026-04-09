@@ -19,6 +19,7 @@ public class UnitController : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer sprite;
     [field: SerializeField] public UnitState unitState { get; private set; } = UnitState.Moving;
     [SerializeField] private string enemyTag;
     [SerializeField] private string enemyBaseTag;
@@ -61,7 +62,6 @@ public class UnitController : MonoBehaviour
                 break;
 
             case UnitState.Attacking:
-                animator.SetBool("Attack", true);
                 Attack();
                 break;
 
@@ -81,8 +81,10 @@ public class UnitController : MonoBehaviour
         rb.linearVelocityX = 0f;
         cooldownTimer -= Time.fixedDeltaTime;
 
+        animator.SetBool("Attack", false);
         if (cooldownTimer <= 0f)
         {
+            animator.SetBool("Attack", true);
             if (!attackingBase)
             {
                 float finalDamage = damage * Matchups.GetMultiplier(unitType, target.unitType);
@@ -101,7 +103,13 @@ public class UnitController : MonoBehaviour
 
     private void TakeDamage(float damage)
     {
+        sprite.color = Color.red;
+        Invoke(nameof(ResetColor), 0.2f);
         currentHealth -= damage;
+    }
+    private void ResetColor()
+    {
+        sprite.color = Color.white;
     }
     public void Initialize(UnitPool unitPool)
     {

@@ -195,6 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   rb: {fileID: 1823109714327058101}
   animator: {fileID: 5725519578796172369}
+  sprite: {fileID: 2932321772875644418}
   <unitState>k__BackingField: 0
   enemyTag: 
   enemyBaseTag: 
