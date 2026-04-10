@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: 563862c54e517b04c8a91555e14c952a
+guid: 32112488cd5f16e47b794d5958e1e2e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8368098680167548722
-    second: Bully3_AttackAnimation_0
+      213: -2014409867720256645
+    second: Nerd1_IdleAnimation_0
   - first:
-      213: 4856359487547298454
-    second: Bully3_AttackAnimation_1
-  - first:
-      213: -6433806126301873903
-    second: Bully3_AttackAnimation_2
+      213: -2238724893741862585
+    second: Nerd1_IdleAnimation_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,84 +99,49 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bully3_AttackAnimation_0
+      name: Nerd1_IdleAnimation_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 3
         y: 0
-        width: 30
+        width: 20
         height: 32
-      alignment: 9
-      pivot: {x: 0.5280407, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2374dccd965712470800000000000000
-      internalID: 8368098680167548722
+      spriteID: b731e7ae5e06b04e0800000000000000
+      internalID: -2014409867720256645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bully3_AttackAnimation_1
+      name: Nerd1_IdleAnimation_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 35
         y: 0
-        width: 30
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5280408, y: 0.5}
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 692dadc4931456340800000000000000
-      internalID: 4856359487547298454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bully3_AttackAnimation_2
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 0
-        width: 38
-        height: 32
-      alignment: 9
-      pivot: {x: 0.6283967, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1197b087a6786b6a0800000000000000
-      internalID: -6433806126301873903
+      spriteID: 74131b602937ee0e0800000000000000
+      internalID: -2238724893741862585
       vertices: []
       indices: 
       edges: []
@@ -188,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 026db9b0d67c65c49b291636922e1412
+    spriteID: 20840d1af1d70e844abec6aca93b60e4
     internalID: 0
     vertices: []
     indices: 
@@ -196,11 +158,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Bully3_AttackAnimation_0: 8368098680167548722
-      Bully3_AttackAnimation_1: 4856359487547298454
-      Bully3_AttackAnimation_2: -6433806126301873903
+      Nerd1_IdleAnimation_0: -2014409867720256645
+      Nerd1_IdleAnimation_1: -2238724893741862585
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

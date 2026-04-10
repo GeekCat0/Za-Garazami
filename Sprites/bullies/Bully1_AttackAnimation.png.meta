@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 563862c54e517b04c8a91555e14c952a
+guid: 08298a7e155c8774ca0aaab14e9bbc56
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8368098680167548722
-    second: Bully3_AttackAnimation_0
+      213: 7256578023671983318
+    second: Bully1_AttackAnimation_0
   - first:
-      213: 4856359487547298454
-    second: Bully3_AttackAnimation_1
+      213: -3418411584581142542
+    second: Bully1_AttackAnimation_1
   - first:
-      213: -6433806126301873903
-    second: Bully3_AttackAnimation_2
+      213: 228738913836258079
+    second: Bully1_AttackAnimation_2
+  - first:
+      213: -2724812124242167535
+    second: Bully1_AttackAnimation_3
+  - first:
+      213: -6375748413344185054
+    second: Bully1_AttackAnimation_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,67 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bully3_AttackAnimation_0
+      name: Bully1_AttackAnimation_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 0
-        width: 30
+        width: 29
         height: 32
       alignment: 9
-      pivot: {x: 0.5280407, y: 0.5}
+      pivot: {x: 0.6, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2374dccd965712470800000000000000
-      internalID: 8368098680167548722
+      spriteID: 6dcefd9f34b84b460800000000000000
+      internalID: 7256578023671983318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bully3_AttackAnimation_1
+      name: Bully1_AttackAnimation_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 52
         y: 0
-        width: 30
+        width: 41
         height: 32
       alignment: 9
-      pivot: {x: 0.5280408, y: 0.5}
+      pivot: {x: 0.70837605, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 692dadc4931456340800000000000000
-      internalID: 4856359487547298454
+      spriteID: 2f7f5fc76cc5f80d0800000000000000
+      internalID: -3418411584581142542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bully3_AttackAnimation_2
+      name: Bully1_AttackAnimation_2
       rect:
         serializedVersion: 2
-        x: 105
+        x: 100
         y: 0
-        width: 38
+        width: 41
         height: 32
       alignment: 9
-      pivot: {x: 0.6283967, y: 0.5}
+      pivot: {x: 0.7152081, y: 0.49999997}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1197b087a6786b6a0800000000000000
-      internalID: -6433806126301873903
+      spriteID: f13d48984d4ac2300800000000000000
+      internalID: 228738913836258079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bully1_AttackAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.6536102, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1193ed64fc58f2ad0800000000000000
+      internalID: -2724812124242167535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bully1_AttackAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2250c55299ac487a0800000000000000
+      internalID: -6375748413344185054
       vertices: []
       indices: 
       edges: []
@@ -188,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 026db9b0d67c65c49b291636922e1412
+    spriteID: 06d8a78dd9cb50c44bd41522cd501198
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bully3_AttackAnimation_0: 8368098680167548722
-      Bully3_AttackAnimation_1: 4856359487547298454
-      Bully3_AttackAnimation_2: -6433806126301873903
+      Bully1_AttackAnimation_0: 7256578023671983318
+      Bully1_AttackAnimation_1: -3418411584581142542
+      Bully1_AttackAnimation_2: 228738913836258079
+      Bully1_AttackAnimation_3: -2724812124242167535
+      Bully1_AttackAnimation_4: -6375748413344185054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

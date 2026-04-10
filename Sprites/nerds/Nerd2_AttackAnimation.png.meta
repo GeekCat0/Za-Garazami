@@ -1,16 +1,25 @@
 fileFormatVersion: 2
-guid: 563862c54e517b04c8a91555e14c952a
+guid: a1a2414dfd69dad49b92e19490475a16
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8368098680167548722
-    second: Bully3_AttackAnimation_0
+      213: 7876415198061099265
+    second: Nerd2_AttackAnimation_0
   - first:
-      213: 4856359487547298454
-    second: Bully3_AttackAnimation_1
+      213: -4777799081427930443
+    second: Nerd2_AttackAnimation_1
   - first:
-      213: -6433806126301873903
-    second: Bully3_AttackAnimation_2
+      213: -6497564672998330647
+    second: Nerd2_AttackAnimation_2
+  - first:
+      213: -6416426788989281917
+    second: Nerd2_AttackAnimation_3
+  - first:
+      213: -5159002501246369889
+    second: Nerd2_AttackAnimation_4
+  - first:
+      213: -1988688381982571226
+    second: Nerd2_AttackAnimation_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,84 +111,137 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bully3_AttackAnimation_0
+      name: Nerd2_AttackAnimation_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 8
         y: 0
-        width: 30
+        width: 19
         height: 32
-      alignment: 9
-      pivot: {x: 0.5280407, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2374dccd965712470800000000000000
-      internalID: 8368098680167548722
+      spriteID: 1097bef34e5ae4d60800000000000000
+      internalID: 7876415198061099265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bully3_AttackAnimation_1
+      name: Nerd2_AttackAnimation_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 40
         y: 0
-        width: 30
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5280408, y: 0.5}
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 692dadc4931456340800000000000000
-      internalID: 4856359487547298454
+      spriteID: 5b2fc4f9c09d1bdb0800000000000000
+      internalID: -4777799081427930443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bully3_AttackAnimation_2
+      name: Nerd2_AttackAnimation_2
       rect:
         serializedVersion: 2
-        x: 105
+        x: 72
         y: 0
-        width: 38
-        height: 32
-      alignment: 9
-      pivot: {x: 0.6283967, y: 0.5}
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1197b087a6786b6a0800000000000000
-      internalID: -6433806126301873903
+      spriteID: 9eeaec00b5304d5a0800000000000000
+      internalID: -6497564672998330647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nerd2_AttackAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3895ef2c4d544f6a0800000000000000
+      internalID: -6416426788989281917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nerd2_AttackAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fbbd50f8a8768b0800000000000000
+      internalID: -5159002501246369889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nerd2_AttackAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6258bfef372c664e0800000000000000
+      internalID: -1988688381982571226
       vertices: []
       indices: 
       edges: []
@@ -188,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 026db9b0d67c65c49b291636922e1412
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +260,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bully3_AttackAnimation_0: 8368098680167548722
-      Bully3_AttackAnimation_1: 4856359487547298454
-      Bully3_AttackAnimation_2: -6433806126301873903
+      Nerd2_AttackAnimation_0: 7876415198061099265
+      Nerd2_AttackAnimation_1: -4777799081427930443
+      Nerd2_AttackAnimation_2: -6497564672998330647
+      Nerd2_AttackAnimation_3: -6416426788989281917
+      Nerd2_AttackAnimation_4: -5159002501246369889
+      Nerd2_AttackAnimation_5: -1988688381982571226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
