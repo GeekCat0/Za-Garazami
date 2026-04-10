@@ -1285,10 +1285,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.21875001
     y: 0
-    width: 1
-    height: 1
+    width: 0.32314816
+    height: 0.32314813
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -3477,7 +3477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67ea49d6161bb97438e97b4711ac0710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoneySystem
-  playerMoney: 500
+  playerMoney: 15
   incomeDelay: 5
   incomeAmount: 7
   currencyText: {fileID: 428943748}
