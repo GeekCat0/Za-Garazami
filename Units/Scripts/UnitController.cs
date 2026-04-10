@@ -127,6 +127,7 @@ public class UnitController : MonoBehaviour
         target = null;
         attackingBase = false;
         enemyBase = GameObject.FindWithTag(enemyBaseTag);
+        hpSlider.value = currentHealth / maxHealth * 100;
     }
 
     private void Death() // tutaj potem damy by zagrało najpierw jakąś animacje etc. ale narazie przeciwnik znika 
