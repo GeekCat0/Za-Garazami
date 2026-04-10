@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public enum UnitState
 {
@@ -20,6 +21,7 @@ public class UnitController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer sprite;
+    [SerializeField] private Slider hpSlider;
     [field: SerializeField] public UnitState unitState { get; private set; } = UnitState.Moving;
     [SerializeField] private string enemyTag;
     [SerializeField] private string enemyBaseTag;
@@ -107,6 +109,7 @@ public class UnitController : MonoBehaviour
         sprite.color = Color.red;
         Invoke(nameof(ResetColor), 0.2f);
         currentHealth -= damage;
+        hpSlider.value = currentHealth / maxHealth * 100;
     }
     private void ResetColor()
     {

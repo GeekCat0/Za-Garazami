@@ -1,12 +1,14 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class Base : MonoBehaviour
 {
     [Header("Components")]
     [SerializeField] private GameObject endScreen;
     [SerializeField] private GameObject winStatus;
+    [SerializeField] private Slider healthBarSlider;
 
     [Header("Stats")]
     [SerializeField] private float maxHealth = 1000;
@@ -36,6 +38,7 @@ public class Base : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
             Defeat();
+        healthBarSlider.value = currentHealth / maxHealth * 100;
     }
     private void Defeat() 
     {
