@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2932321772875644418, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2014409867720256645, guid: 771a9b8bdf910144f886df641f2965b2, type: 3}
+    - target: {fileID: 3047624555401462506, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
+      propertyPath: m_SpriteHash
+      value: 503667650
+      objectReference: {fileID: 0}
     - target: {fileID: 3801853529351996439, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -52,6 +60,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5639573229399420599, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
+      propertyPath: m_SpriteLibraryAsset
+      value: 
+      objectReference: {fileID: 7108339969198208228, guid: eda5403364df25341a0956f2bcac83eb, type: 3}
     - target: {fileID: 6651692283925007901, guid: ea9746ab5fd4c824a80238718d3a8c7b, type: 3}
       propertyPath: m_Name
       value: BasicFriendlyUnit

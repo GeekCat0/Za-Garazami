@@ -51,10 +51,18 @@ PrefabInstance:
     - target: {fileID: 4059975767654424478, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4867908640421819076, guid: 820712d5007baec4d8c2c5a4255500a5, type: 3}
+      objectReference: {fileID: 6360926481031057724, guid: 259519b9fa021244188ba5c099d59c64, type: 3}
+    - target: {fileID: 4228047772104745846, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_labelHash
+      value: 2.6994296e-24
+      objectReference: {fileID: 0}
     - target: {fileID: 4228047772104745846, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_SpriteHash
       value: 503667650
+      objectReference: {fileID: 0}
+    - target: {fileID: 4228047772104745846, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
+      propertyPath: m_CategoryHash
+      value: 1.8625731e-11
       objectReference: {fileID: 0}
     - target: {fileID: 5524179021267971969, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_Name
@@ -63,7 +71,7 @@ PrefabInstance:
     - target: {fileID: 6820020583158157099, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_SpriteLibraryAsset
       value: 
-      objectReference: {fileID: 7108339969198208228, guid: 47b9778d62e1e8d43b92eb4930f2edbc, type: 3}
+      objectReference: {fileID: 7108339969198208228, guid: 5cb4639527e4988418a3c4ecdc1d5363, type: 3}
     - target: {fileID: 7019349502369089430, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: m_Color.b
       value: 0.28025985

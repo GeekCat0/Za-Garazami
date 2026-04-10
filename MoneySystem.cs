@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class MoneySystem : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class MoneySystem : MonoBehaviour
     public int playerMoney;
     [SerializeField] float incomeDelay;
     [SerializeField] int incomeAmount;
+    [SerializeField] TextMeshProUGUI currencyText;
     void Awake()
     {
         if (instance == null)
@@ -18,6 +20,7 @@ public class MoneySystem : MonoBehaviour
         {
             Destroy(this);
         }
+        updateUI();
         StartCoroutine(MoneyIncome());
     }
     IEnumerator MoneyIncome()
@@ -26,7 +29,12 @@ public class MoneySystem : MonoBehaviour
         {
             yield return new WaitForSeconds(incomeDelay);
             playerMoney += incomeAmount;
+            updateUI();
         }
 
+    }
+    public void updateUI()
+    {
+        currencyText.text = playerMoney.ToString();
     }
 }

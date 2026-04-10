@@ -50,7 +50,11 @@ public class UnitPool : MonoBehaviour
                 pool.Enqueue(unit);
                 return null;
             }
-            if (unitScript.unitCost <= MoneySystem.instance.playerMoney) MoneySystem.instance.playerMoney -= unitScript.unitCost;
+            if (unitScript.unitCost <= MoneySystem.instance.playerMoney)
+            {
+                MoneySystem.instance.playerMoney -= unitScript.unitCost;
+                MoneySystem.instance.updateUI();
+            }
             else
             {
                 unit.SetActive(false);
