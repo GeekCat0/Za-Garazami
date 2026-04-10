@@ -4,10 +4,14 @@ using System;
 
 public class Base : MonoBehaviour
 {
+    [Header("Components")]
+    [SerializeField] private GameObject endScreen;
+    [SerializeField] private GameObject winStatus;
+
     [Header("Stats")]
     [SerializeField] private float maxHealth = 1000;
     [SerializeField] private float currentHealth = 1000;
-    [SerializeField] private bool friendlyBase = false;
+
     
 
     [Header("Spawning")]
@@ -33,12 +37,11 @@ public class Base : MonoBehaviour
         if (currentHealth <= 0)
             Defeat();
     }
-    private void Defeat() // później tutaj dodamy logic przegranej lub wygranej, coś takiego
+    private void Defeat() 
     {
-        if (friendlyBase)
-            Debug.Log("win");
-        else
-            Debug.Log("lose");
+        winStatus.SetActive(true);
+        endScreen.SetActive(true);
         Destroy(gameObject, 1);
+        Time.timeScale = 0.0f;
     }
 }

@@ -6,6 +6,7 @@ public class SceneLoader : MonoBehaviour
     // Wczytuje scenê po nazwie (string)
     public void LoadScene(string sceneName)
     {
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene(sceneName);
     }
 
