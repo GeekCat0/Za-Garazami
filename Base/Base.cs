@@ -7,6 +7,7 @@ public class Base : MonoBehaviour
     [Header("Stats")]
     [SerializeField] private float maxHealth = 1000;
     [SerializeField] private float currentHealth = 1000;
+    [SerializeField] private bool friendlyBase = false;
     
 
     [Header("Spawning")]
@@ -34,6 +35,10 @@ public class Base : MonoBehaviour
     }
     private void Defeat() // później tutaj dodamy logic przegranej lub wygranej, coś takiego
     {
+        if (friendlyBase)
+            Debug.Log("win");
+        else
+            Debug.Log("lose");
         Destroy(gameObject, 1);
     }
 }
