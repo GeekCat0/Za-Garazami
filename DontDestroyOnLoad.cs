@@ -1,7 +1,4 @@
-using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
-using System;
 
 public class DontDestroyOnLoad : MonoBehaviour
 {
