@@ -448,6 +448,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -725,11 +726,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 671
+      value: 667
       objectReference: {fileID: 0}
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 105
+      value: 168
       objectReference: {fileID: 0}
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -868,11 +869,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 669
+      value: 667
       objectReference: {fileID: 0}
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 303
+      value: 276
       objectReference: {fileID: 0}
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
