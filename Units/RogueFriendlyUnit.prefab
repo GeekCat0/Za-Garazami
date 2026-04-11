@@ -102,11 +102,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: damage
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: unitCost
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: unitType
@@ -114,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: maxHealth
-      value: 100
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: moveSpeed
@@ -126,7 +126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7815182410413683317, guid: df6f7da3a52df3147986cb4b55e99b12, type: 3}
       propertyPath: attackCooldown
-      value: 0.7
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

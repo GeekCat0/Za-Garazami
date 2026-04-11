@@ -30,11 +30,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4101762068503698017, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: damage
-      value: 7
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4101762068503698017, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: unitType
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101762068503698017, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
+      propertyPath: maxHealth
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4101762068503698017, guid: b7e2e71aa8d23af45b4510ce2cfd2927, type: 3}
       propertyPath: moveSpeed

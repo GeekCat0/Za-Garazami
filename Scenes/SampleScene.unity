@@ -794,6 +794,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -1285,10 +1286,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.21875001
+    x: 0
     y: 0
-    width: 0.32314816
-    height: 0.32314813
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -1421,7 +1422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 6
+  m_text: 8
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: daffbf104a8ffbd48894e98f08e1aba4, type: 2}
   m_sharedMaterial: {fileID: 4632056779773406560, guid: daffbf104a8ffbd48894e98f08e1aba4, type: 2}
@@ -1606,6 +1607,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 164973658}
     - target: {fileID: 4298851167108640026, guid: 4a7c5b0484a090c40a72af574afafbdd, type: 3}
+      propertyPath: maxHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298851167108640026, guid: 4a7c5b0484a090c40a72af574afafbdd, type: 3}
       propertyPath: winStatus
       value: 
       objectReference: {fileID: 93777606}
@@ -1613,6 +1618,10 @@ PrefabInstance:
       propertyPath: spawnPoint
       value: 
       objectReference: {fileID: 1652846722}
+    - target: {fileID: 4298851167108640026, guid: 4a7c5b0484a090c40a72af574afafbdd, type: 3}
+      propertyPath: currentHealth
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 4298851167108640026, guid: 4a7c5b0484a090c40a72af574afafbdd, type: 3}
       propertyPath: healthBarSlider
       value: 
@@ -1738,7 +1747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyBasicAI
   enemyBase: {fileID: 757369105}
-  spawnDelay: 5
+  spawnDelay: 7
   defaultUnitID: 0
   maxUnitID: 2
 --- !u!1 &846195462
@@ -2885,7 +2894,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 7
+  m_text: 10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: daffbf104a8ffbd48894e98f08e1aba4, type: 2}
   m_sharedMaterial: {fileID: 4632056779773406560, guid: daffbf104a8ffbd48894e98f08e1aba4, type: 2}
@@ -3477,9 +3486,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67ea49d6161bb97438e97b4711ac0710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoneySystem
-  playerMoney: 15
-  incomeDelay: 5
-  incomeAmount: 7
+  playerMoney: 10
+  incomeDelay: 3
+  incomeAmount: 2
   currencyText: {fileID: 428943748}
 --- !u!4 &1645451633
 Transform:
@@ -3983,9 +3992,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 164973658}
     - target: {fileID: 7831800595186719756, guid: 761ee8cb7bfdc5c4db313595b8f1d4f6, type: 3}
+      propertyPath: maxHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 7831800595186719756, guid: 761ee8cb7bfdc5c4db313595b8f1d4f6, type: 3}
       propertyPath: winStatus
       value: 
       objectReference: {fileID: 1434296680}
+    - target: {fileID: 7831800595186719756, guid: 761ee8cb7bfdc5c4db313595b8f1d4f6, type: 3}
+      propertyPath: currentHealth
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 7831800595186719756, guid: 761ee8cb7bfdc5c4db313595b8f1d4f6, type: 3}
       propertyPath: healthBarFill
       value: 
