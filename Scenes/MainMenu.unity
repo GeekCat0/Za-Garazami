@@ -125,7 +125,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 888716268}
+    m_TransformParent: {fileID: 1834972598}
     m_Modifications:
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_Pivot.x
@@ -280,7 +280,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 888716268}
+    m_TransformParent: {fileID: 1834972598}
     m_Modifications:
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_Pivot.x
@@ -408,7 +408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5561085501541635100, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: SampleScene
+      value: LVL 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -589,7 +589,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 888716268}
+    m_TransformParent: {fileID: 1834972598}
     m_Modifications:
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_Pivot.x
@@ -717,7 +717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5561085501541635100, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: SampleScene
+      value: LVL 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -931,10 +931,6 @@ RectTransform:
   m_Children:
   - {fileID: 545150985}
   - {fileID: 1834972598}
-  - {fileID: 249099085}
-  - {fileID: 421663685}
-  - {fileID: 1388241443}
-  - {fileID: 117975159}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1307,7 +1303,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 888716268}
+    m_TransformParent: {fileID: 1834972598}
     m_Modifications:
     - target: {fileID: 676779468400975819, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_Pivot.x
@@ -1435,7 +1431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5561085501541635100, guid: 64ea0f13d331a2a499a59678e6a8d00f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: SampleScene
+      value: LVL 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1852,7 +1848,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 249099085}
+  - {fileID: 421663685}
+  - {fileID: 1388241443}
+  - {fileID: 117975159}
   m_Father: {fileID: 888716268}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
